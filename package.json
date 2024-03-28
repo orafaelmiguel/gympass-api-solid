@@ -4,10 +4,11 @@
   "description": "Gympass style app.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node build/server.js",
     "dev": "tsx watch src/server.ts",
-    "build": "tsup src --out-dir build"
+    "build": "tsup src --out-dir build",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "keywords": [],
   "author": "",
@@ -20,7 +21,9 @@
     "prisma": "5.11.0",
     "tsup": "8.0.2",
     "tsx": "4.7.1",
-    "typescript": "5.4.3"
+    "typescript": "5.4.3",
+    "vite-tsconfig-paths": "4.3.2",
+    "vitest": "1.4.0"
   },
   "dependencies": {
     "-": "0.0.1",
