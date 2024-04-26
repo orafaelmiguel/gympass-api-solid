@@ -21,3 +21,15 @@ A Restful API developed in Typescript, with the aim of providing similar functio
 - [Fastify](https://fastify.dev/)
 - [NPM](https://docs.npmjs.com/)
 - [Zod](https://zod.dev/)
+
+### Running Server 💻
+
+1 - Clone this repository
+```bash
+$ git clone https://github.com/orafaelmiguel/visity-backend.git
+```
+
+2 - Install the dependencies
+```bash
+$ npm install
+```
