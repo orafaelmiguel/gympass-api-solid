@@ -1,0 +1,23 @@
+### Gympass API (SOLID and TDD) ⚙️
+
+A Restful API developed in Typescript, with the aim of providing similar functionality to the Gympass app. This API was built following SOLID principles and adopting the test-driven development (TDD) methodology, thus ensuring modular, scalable and highly testable code.
+
+### Functionalities 🔧
+
+- User Registration: Allows new users to register on the platform.
+- Gym registration: Allows the registration, updating and deletion of partner gyms. (Only by administrators)
+- Check-in: Users can check-in daily at partner gyms.
+- Metrics: it is possible to retrieve a user's check-in history and some other data.
+
+### Techs and details 🧬
+
+- [TypeScript](https://www.typescriptlang.org/docs/)
+- [Node.js](https://nodejs.org/en/)
+- [Prisma](https://www.prisma.io/docs)
+- [PostgreSQL](https://www.postgresql.org/)
+- [Vitest](https://vitest.dev/)
+- [JWT](https://jwt.io/introduction)
+- [Docker](https://www.docker.com/#build)
+- [Fastify](https://fastify.dev/)
+- [NPM](https://docs.npmjs.com/)
+- [Zod](https://zod.dev/)
